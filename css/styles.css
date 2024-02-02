@@ -794,9 +794,10 @@ letter-spacing: 0.02em;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
+    display: block;
+    text-align: center;
     margin-bottom: 16px;
-    margin-right: 76px;
+    /* margin-right: 76px; */
     
     
 }
@@ -854,6 +855,7 @@ width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .footer-icons {
@@ -890,8 +892,8 @@ width: 264px;
 } 
 
 .footer-form-title {
-    width: 75px;
-    height: 24px;
+    /* width: 75px;
+    height: 24px; */
 color: #FFF;
 font-family: Roboto;
 font-size: 16px;
@@ -899,15 +901,19 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 margin-bottom: 16px;
+text-align: center;
 }
 
 .footer-form {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
 }
 
 .footer-form-input {
-    width: 264px;
+    /* width: 264px; */
+    width: 288px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -937,7 +943,7 @@ letter-spacing: 0.04em;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 16px;
+    /* gap: 16px; */
     border-radius: 4px;
     background-color: #4D5AE5;
     color: #FFF;
